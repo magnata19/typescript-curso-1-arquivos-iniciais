@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "outDir": "dist/js", //onde os arquivos vao ser compilados
+        "target": "ES6", //todo codigo vai ser compilado pra es6
+        "noEmitOnError": true //nao gera arquivo js enqto o ts nao passar na compilacao
+    },
+    "include": [
+        "app/**/*" // incluir o app, toda subpasta e todo arquivo para serem compilados
+    ]
+}
